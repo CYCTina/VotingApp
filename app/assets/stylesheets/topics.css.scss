@@ -4,41 +4,50 @@
 
 
 
-table.topicTable
+.topicTable
 {
 	margin-top:50px;
 	border: 2px solid #4D94FF;
 
 }
 
-table.topicTable th
+.topicTable th
 {
 	padding: 8px;
 	background-color: #82B4FF;
 }
 
-table.topicTable td
+.topicTable td
 {
-	padding: 1px 30px 1px 20px;
 	background-color: #ffffff;
 }
 
-.tdCenter
+.tableLongTxt
+{
+	text-align:left;
+	padding: 0px 30px 0px 2px;
+	float:left;
+}
+
+.tableShortTxt
 {
 	text-align:center;
+	padding: 0px 10px 0px 10px;
+}
+
+.tableBtn
+{
+	text-align:center;
+	padding: 0px 15px 0px 15px;
 }
 
 .tbxTitle
 {
-	width:300px;
+	width:500px;
 }
-
 
 .tbxDescription
 {
-  	width:300px;
 	height:100px;
+	width:500px;
 }
-
-
-#div1:hover ~ div:nth-child(1n) { background: yellow; }
